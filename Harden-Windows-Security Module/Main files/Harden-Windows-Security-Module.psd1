@@ -2,7 +2,7 @@
   # https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_module_manifests
 
   RootModule           = 'Harden-Windows-Security-Module.psm1'
-  ModuleVersion        = '0.6.6'
+  ModuleVersion        = '0.6.7'
   CompatiblePSEditions = @('Core')
   GUID                 = 'afae7a0a-5eff-4a4d-9139-e1702b7ac426'
   Author               = 'Violet Hansen'
@@ -29,7 +29,7 @@ Harden Windows Safely, Securely, only with Official Microsoft methods - 🦄 Int
 💠 Features of this module:
 
   ✅ Everything always stays up-to-date with the newest proactive security measures that are industry standards and scalable.
-  ✅ Everything is in plain text, nothing hidden, no 3rd party executable or pre-compiled binary is involved.
+  ✅ Everything is in clear text, nothing hidden, no 3rd party executable or pre-compiled binary is involved.
   ✅ No Windows functionality is removed/disabled against Microsoft's recommendations.
   ✅ The module primarily uses Group policies, the Microsoft recommended way of configuring Windows. It also uses PowerShell cmdlets where Group Policies aren't available, and finally uses a few registry keys to configure security measures that can neither be configured using Group Policies nor PowerShell cmdlets. This is why the module doesn't break anything or cause unwanted behavior.
   ✅ When a hardening measure is no longer necessary because it's applied by default by Microsoft on new builds of Windows, it will also be removed from the module in order to prevent any problems and because it won't be necessary anymore.

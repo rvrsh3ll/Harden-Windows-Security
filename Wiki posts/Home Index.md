@@ -1,5 +1,7 @@
 <div align="center">
-<img src="https://raw.githubusercontent.com/HotCakeX/.github/main/Pictures/SVG/Welcome%20to%20the%20wiki%202.svg" width="450">
+
+<a href="https://github.com/HotCakeX/Harden-Windows-Security/wiki"> <img src="https://raw.githubusercontent.com/HotCakeX/.github/refs/heads/main/Pictures/Gifs/Harden%20Windows%20Security%20October%20Edition.gif" alt="Welcome to Harden Windows Security Wiki gif"> </a>
+
 </div>
 
 # [Harden Windows Security GitHub Wiki content](https://github.com/HotCakeX/Harden-Windows-Security/wiki)
@@ -24,8 +26,11 @@
 - <img src="https://raw.githubusercontent.com/HotCakeX/.github/main/Pictures/Gifs/wings/pinkwings.gif" width="35"> [Test-CiPolicy](https://github.com/HotCakeX/Harden-Windows-Security/wiki/Test-CiPolicy)
 - <img src="https://raw.githubusercontent.com/HotCakeX/.github/main/Pictures/Gifs/wings/pinkwings.gif" width="35"> [Get-CiFileHashes](https://github.com/HotCakeX/Harden-Windows-Security/wiki/Get-CiFileHashes) <img src="https://raw.githubusercontent.com/HotCakeX/.github/main/Pictures/PNG%20and%20JPG/New.png" alt="New Label" width="25">
 - <img src="https://raw.githubusercontent.com/HotCakeX/.github/main/Pictures/Gifs/wings/pinkwings.gif" width="35"> [ConvertTo-WDACPolicy](https://github.com/HotCakeX/Harden-Windows-Security/wiki/ConvertTo-WDACPolicy) <img src="https://raw.githubusercontent.com/HotCakeX/.github/main/Pictures/PNG%20and%20JPG/New.png" alt="New Label" width="25">
-- <img src="https://raw.githubusercontent.com/HotCakeX/.github/main/Pictures/Gifs/wings/pinkwings.gif" width="35"> [Set-CiRuleOptions](https://github.com/HotCakeX/Harden-Windows-Security/wiki/Set-CiRuleOptions) <img src="https://raw.githubusercontent.com/HotCakeX/.github/main/Pictures/PNG%20and%20JPG/New.png" alt="New Label" width="25">
 - <img src="https://raw.githubusercontent.com/HotCakeX/.github/main/Pictures/Gifs/wings/pinkwings.gif" width="35"> [Get-CIPolicySetting](https://github.com/HotCakeX/Harden-Windows-Security/wiki/Get-CIPolicySetting) <img src="https://raw.githubusercontent.com/HotCakeX/.github/main/Pictures/PNG%20and%20JPG/New.png" alt="New Label" width="25">
+
+<br>
+
+## <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/refs/heads/main/WDACConfig/icon.png" alt="AppControl Manager icon" width="50"> [AppControl Manager](https://github.com/HotCakeX/Harden-Windows-Security/wiki/AppControl-Manager)
 
 <br>
 
@@ -33,23 +38,24 @@
 
 <br>
 
-## <img src="https://raw.githubusercontent.com/HotCakeX/.github/main/Pictures/Gifs/wings/yellowwings.gif" width="50"> [Windows Defender Application Control (WDAC)](https://github.com/HotCakeX/Harden-Windows-Security/wiki/Introduction)
+## <img src="https://raw.githubusercontent.com/HotCakeX/.github/main/Pictures/Gifs/wings/yellowwings.gif" width="50"> [App Control for Business](https://github.com/HotCakeX/Harden-Windows-Security/wiki/Introduction)
 
 - <img src="https://raw.githubusercontent.com/HotCakeX/.github/main/Pictures/Gifs/wings/yellowwings.gif" width="35"> [Introduction](https://github.com/HotCakeX/Harden-Windows-Security/wiki/Introduction)
-- <img src="https://raw.githubusercontent.com/HotCakeX/.github/main/Pictures/Gifs/wings/yellowwings.gif" width="35"> [WDAC for Lightly Managed Devices](https://github.com/HotCakeX/Harden-Windows-Security/wiki/WDAC-for-Lightly-Managed-Devices)
-- <img src="https://raw.githubusercontent.com/HotCakeX/.github/main/Pictures/Gifs/wings/yellowwings.gif" width="35"> [WDAC for Fully managed device - Variant 1](https://github.com/HotCakeX/Harden-Windows-Security/wiki/WDAC-for-Fully-Managed-Devices)
-- <img src="https://raw.githubusercontent.com/HotCakeX/.github/main/Pictures/Gifs/wings/yellowwings.gif" width="35"> [WDAC for Fully managed device - Variant 2](https://github.com/HotCakeX/Harden-Windows-Security/wiki/WDAC-for-Fully-Managed-Devices--Variant-2)
-- <img src="https://raw.githubusercontent.com/HotCakeX/.github/main/Pictures/Gifs/wings/yellowwings.gif" width="35"> [WDAC for Fully managed device - Variant 3](https://github.com/HotCakeX/Harden-Windows-Security/wiki/WDAC-policy-for-Fully-managed-device---Variant-3)
-- <img src="https://raw.githubusercontent.com/HotCakeX/.github/main/Pictures/Gifs/wings/yellowwings.gif" width="35"> [WDAC for Fully managed device - Variant 4](https://github.com/HotCakeX/Harden-Windows-Security/wiki/WDAC-policy-for-Fully-managed-device---Variant-4)
-- <img src="https://raw.githubusercontent.com/HotCakeX/.github/main/Pictures/Gifs/wings/yellowwings.gif" width="35"> [WDAC Notes](https://github.com/HotCakeX/Harden-Windows-Security/wiki/WDAC-Notes)
-- <img src="https://raw.githubusercontent.com/HotCakeX/.github/main/Pictures/Gifs/wings/yellowwings.gif" width="35"> [How to Create and Deploy a Signed WDAC Policy](https://github.com/HotCakeX/Harden-Windows-Security/wiki/How-to-Create-and-Deploy-a-Signed-WDAC-Policy-Windows-Defender-Application-Control)
+- <img src="https://raw.githubusercontent.com/HotCakeX/.github/main/Pictures/Gifs/wings/yellowwings.gif" width="35"> [App Control for Lightly Managed Devices](https://github.com/HotCakeX/Harden-Windows-Security/wiki/WDAC-for-Lightly-Managed-Devices)
+- <img src="https://raw.githubusercontent.com/HotCakeX/.github/main/Pictures/Gifs/wings/yellowwings.gif" width="35"> [App Control for Fully managed device - Variant 1](https://github.com/HotCakeX/Harden-Windows-Security/wiki/WDAC-for-Fully-Managed-Devices)
+- <img src="https://raw.githubusercontent.com/HotCakeX/.github/main/Pictures/Gifs/wings/yellowwings.gif" width="35"> [App Control for Fully managed device - Variant 2](https://github.com/HotCakeX/Harden-Windows-Security/wiki/WDAC-for-Fully-Managed-Devices--Variant-2)
+- <img src="https://raw.githubusercontent.com/HotCakeX/.github/main/Pictures/Gifs/wings/yellowwings.gif" width="35"> [App Control for Fully managed device - Variant 3](https://github.com/HotCakeX/Harden-Windows-Security/wiki/WDAC-policy-for-Fully-managed-device---Variant-3)
+- <img src="https://raw.githubusercontent.com/HotCakeX/.github/main/Pictures/Gifs/wings/yellowwings.gif" width="35"> [App Control for Fully managed device - Variant 4](https://github.com/HotCakeX/Harden-Windows-Security/wiki/WDAC-policy-for-Fully-managed-device---Variant-4)
+- <img src="https://raw.githubusercontent.com/HotCakeX/.github/main/Pictures/Gifs/wings/yellowwings.gif" width="35"> [App Control Notes](https://github.com/HotCakeX/Harden-Windows-Security/wiki/WDAC-Notes)
+- <img src="https://raw.githubusercontent.com/HotCakeX/.github/main/Pictures/Gifs/wings/yellowwings.gif" width="35"> [How to Create and Deploy a Signed App Control Policy](https://github.com/HotCakeX/Harden-Windows-Security/wiki/How-to-Create-and-Deploy-a-Signed-WDAC-Policy-Windows-Defender-Application-Control)
 - <img src="https://raw.githubusercontent.com/HotCakeX/.github/main/Pictures/Gifs/wings/yellowwings.gif" width="35"> [Fast and Automatic Microsoft Recommended Driver Block Rules updates](https://github.com/HotCakeX/Harden-Windows-Security/wiki/Fast-and-Automatic-Microsoft-Recommended-Driver-Block-Rules-updates)
-- <img src="https://raw.githubusercontent.com/HotCakeX/.github/main/Pictures/Gifs/wings/yellowwings.gif" width="35"> [WDAC policy for BYOVD Kernel mode only protection](https://github.com/HotCakeX/Harden-Windows-Security/wiki/WDAC-policy-for-BYOVD-Kernel-mode-only-protection)
-- <img src="https://raw.githubusercontent.com/HotCakeX/.github/main/Pictures/Gifs/wings/yellowwings.gif" width="35"> [EKUs in WDAC, App Control for Business, Policies](https://github.com/HotCakeX/Harden-Windows-Security/wiki/EKUs-in-WDAC,-App-Control-for-Business,-Policies)
-- <img src="https://raw.githubusercontent.com/HotCakeX/.github/main/Pictures/Gifs/wings/yellowwings.gif" width="35"> [WDAC Rule Levels Comparison and Guide](https://github.com/HotCakeX/Harden-Windows-Security/wiki/WDAC-Rule-Levels-Comparison-and-Guide) <img src="https://raw.githubusercontent.com/HotCakeX/.github/main/Pictures/PNG%20and%20JPG/New.png" alt="New Label" width="25">
-- <img src="https://raw.githubusercontent.com/HotCakeX/.github/main/Pictures/Gifs/wings/yellowwings.gif" width="35"> [Script Enforcement and PowerShell Constrained Language Mode in WDAC App Control Policies](https://github.com/HotCakeX/Harden-Windows-Security/wiki/Script-Enforcement-and-PowerShell-Constrained-Language-Mode-in-WDAC-App-Control-Policies) <img src="https://raw.githubusercontent.com/HotCakeX/.github/main/Pictures/PNG%20and%20JPG/New.png" alt="New Label" width="25">
-- <img src="https://raw.githubusercontent.com/HotCakeX/.github/main/Pictures/Gifs/wings/yellowwings.gif" width="35"> [How to Use Microsoft Defender for Endpoint Advanced Hunting With WDAC App Control](https://github.com/HotCakeX/Harden-Windows-Security/wiki/How-to-Use-Microsoft-Defender-for-Endpoint-Advanced-Hunting-With-WDAC-App-Control) <img src="https://raw.githubusercontent.com/HotCakeX/.github/main/Pictures/PNG%20and%20JPG/New.png" alt="New Label" width="25">
-- <img src="https://raw.githubusercontent.com/HotCakeX/.github/main/Pictures/Gifs/wings/yellowwings.gif" width="35"> [Application Control (WDAC) Frequently Asked Questions (FAQs)](https://github.com/HotCakeX/Harden-Windows-Security/wiki/Application-Control-(WDAC)-Frequently-Asked-Questions-(FAQs)) <img src="https://raw.githubusercontent.com/HotCakeX/.github/main/Pictures/PNG%20and%20JPG/New.png" alt="New Label" width="25">
+- <img src="https://raw.githubusercontent.com/HotCakeX/.github/main/Pictures/Gifs/wings/yellowwings.gif" width="35"> [App Control policy for BYOVD Kernel mode only protection](https://github.com/HotCakeX/Harden-Windows-Security/wiki/WDAC-policy-for-BYOVD-Kernel-mode-only-protection)
+- <img src="https://raw.githubusercontent.com/HotCakeX/.github/main/Pictures/Gifs/wings/yellowwings.gif" width="35"> [EKUs in App Control for Business Policies](https://github.com/HotCakeX/Harden-Windows-Security/wiki/EKUs-in-WDAC,-App-Control-for-Business,-Policies)
+- <img src="https://raw.githubusercontent.com/HotCakeX/.github/main/Pictures/Gifs/wings/yellowwings.gif" width="35"> [App Control Rule Levels Comparison and Guide](https://github.com/HotCakeX/Harden-Windows-Security/wiki/WDAC-Rule-Levels-Comparison-and-Guide) <img src="https://raw.githubusercontent.com/HotCakeX/.github/main/Pictures/PNG%20and%20JPG/New.png" alt="New Label" width="25">
+- <img src="https://raw.githubusercontent.com/HotCakeX/.github/main/Pictures/Gifs/wings/yellowwings.gif" width="35"> [Script Enforcement and PowerShell Constrained Language Mode in App Control Policies](https://github.com/HotCakeX/Harden-Windows-Security/wiki/Script-Enforcement-and-PowerShell-Constrained-Language-Mode-in-WDAC-App-Control-Policies) <img src="https://raw.githubusercontent.com/HotCakeX/.github/main/Pictures/PNG%20and%20JPG/New.png" alt="New Label" width="25">
+- <img src="https://raw.githubusercontent.com/HotCakeX/.github/main/Pictures/Gifs/wings/yellowwings.gif" width="35"> [How to Use Microsoft Defender for Endpoint Advanced Hunting With App Control
+](https://github.com/HotCakeX/Harden-Windows-Security/wiki/How-to-Use-Microsoft-Defender-for-Endpoint-Advanced-Hunting-With-WDAC-App-Control) <img src="https://raw.githubusercontent.com/HotCakeX/.github/main/Pictures/PNG%20and%20JPG/New.png" alt="New Label" width="25">
+- <img src="https://raw.githubusercontent.com/HotCakeX/.github/main/Pictures/Gifs/wings/yellowwings.gif" width="35"> [App Control Frequently Asked Questions (FAQs)](https://github.com/HotCakeX/Harden-Windows-Security/wiki/Application-Control-(WDAC)-Frequently-Asked-Questions-(FAQs)) <img src="https://raw.githubusercontent.com/HotCakeX/.github/main/Pictures/PNG%20and%20JPG/New.png" alt="New Label" width="25">
 
 <br>
 

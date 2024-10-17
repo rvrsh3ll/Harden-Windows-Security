@@ -24,7 +24,7 @@ Edit-WDACConfig
 
 ## Description
 
-While a Windows Defender Application Control (WDAC) policy is already deployed on the system, rebootlessly turns on Audit mode in it, which will allow you to install a new app that was otherwise getting blocked.
+While an App Control for Business policy is already deployed on the system, rebootlessly turns on Audit mode in it, which will allow you to install a new app that was otherwise getting blocked.
 
 After installation, you will be able to browse for the path(s) of the installed app(s) for scanning, which is optional.
 
@@ -67,7 +67,7 @@ Implements Sandboxing-like restrictions around the program's dependencies.
 > This mode requires the main executable(s) of the programs that need access to the dependencies (such as DLLs) to have the `OriginalFileName` property. Most of the time they do. Use the `-Verbose` parameter to see when they don't.
 
 <div align="center">
-<a href="https://www.youtube.com/watch?v=cp7TaTNPZE0"><img src="https://raw.githubusercontent.com/HotCakeX/.github/main/Pictures/PNG%20and%20JPG/Thumbnails%20with%20YouTube%20play%20logo/YouTube%20Thumbnail%20-%20Sandboxing-like%20capabilities%20of%20WDAC%20Policies.png" alt="Boosted security dependencies in WDAC policies" width="500"></a></div>
+<a href="https://www.youtube.com/watch?v=cp7TaTNPZE0"><img src="https://raw.githubusercontent.com/HotCakeX/.github/main/Pictures/PNG%20and%20JPG/Thumbnails%20with%20YouTube%20play%20logo/YouTube%20Thumbnail%20-%20Sandboxing-like%20capabilities%20of%20WDAC%20Policies.png" alt="Boosted security dependencies in App Control policies" width="500"></a></div>
 
 <br>
 
@@ -386,7 +386,7 @@ The new type of the base policy to deploy. It supports tab completion so just pr
 
 ### -RequireEVSigners
 
-Indicates that the created/deployed policy will have [Require EV Signers](https://learn.microsoft.com/en-us/windows/security/application-security/application-control/windows-defender-application-control/design/wdac-wizard-create-base-policy#advanced-policy-rules-description) policy rule option.
+Indicates that the created/deployed policy will have [Require EV Signers](https://learn.microsoft.com/en-us/windows/security/application-security/application-control/app-control-for-business/design/appcontrol-wizard-create-base-policy#advanced-policy-rules-description) policy rule option.
 
 * In addition to being WHQL signed, this rule requires that drivers must have been submitted by a partner that has an Extended Verification (EV) certificate. All Windows 10 and later, or Windows 11 drivers will meet this requirement.
 

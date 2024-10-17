@@ -53,7 +53,7 @@ Function Unprotect-WindowsSecurity {
                         break
                     }
                     { $WDACPoliciesToRemove.count -gt 0 } {
-                        [HardenWindowsSecurity.UnprotectWindowsSecurity]::RemoveWDACPolicies(($WDACPoliciesToRemove.Contains('Downloads-Defense-Measures')) ? $true : $false, ($WDACPoliciesToRemove.Contains('Dangerous-Script-Hosts-Blocking')) ? $true : $false)
+                        [HardenWindowsSecurity.UnprotectWindowsSecurity]::RemoveAppControlPolicies(($WDACPoliciesToRemove.Contains('Downloads-Defense-Measures')) ? $true : $false, ($WDACPoliciesToRemove.Contains('Dangerous-Script-Hosts-Blocking')) ? $true : $false)
                         break
                     }
                     $OnlyProcessMitigations {
@@ -61,7 +61,7 @@ Function Unprotect-WindowsSecurity {
                         break
                     }
                     default {
-                        [HardenWindowsSecurity.UnprotectWindowsSecurity]::RemoveWDACPolicies($true, $true)
+                        [HardenWindowsSecurity.UnprotectWindowsSecurity]::RemoveAppControlPolicies($true, $true)
                         [HardenWindowsSecurity.UnprotectWindowsSecurity]::Unprotect()
                         [HardenWindowsSecurity.UnprotectWindowsSecurity]::RemoveExploitMitigations()
                     }
@@ -84,14 +84,12 @@ Function Unprotect-WindowsSecurity {
     https://github.com/HotCakeX/Harden-Windows-Security/wiki/Harden%E2%80%90Windows%E2%80%90Security%E2%80%90Module
 .DESCRIPTION
     Removes the hardening measures applied by Protect-WindowsSecurity cmdlet
-.COMPONENT
-    PowerShell
 .FUNCTIONALITY
     Removes the hardening measures applied by Protect-WindowsSecurity cmdlet
 .PARAMETER OnlyProcessMitigations
     Only removes the Process Mitigations / Exploit Protection settings and doesn't change anything else
 .PARAMETER WDACPoliciesToRemove
-    Names of the WDAC Policies to remove
+    Names of the AppControl Policies to remove
 .PARAMETER OnlyCountryIPBlockingFirewallRules
     Only removes the country IP blocking firewall rules and doesn't change anything else
 .PARAMETER Force
